@@ -1,4 +1,4 @@
-import react, {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 
 
 export const Home = () => {
@@ -20,6 +20,11 @@ export const Home = () => {
     return (
         <>
             <h1>Page</h1>
+            {characters?.results?.map((character) => {
+                return(<>
+                  <div>{character.name}</div>  
+                </>)
+            })}
             {console.log(characters)}
         </>
     )

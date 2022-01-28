@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import { Speechlyapp } from './components/Speechlyapp';
+import { Speechlyapp } from './components/Speechlyapp.js';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
